@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        .wrapper{
+            border-collapse: collapse;position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        button{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th{
+            border:2px;
+            border-style: solid;
+        }
+        td{
+            border:2px;
+            border-style: solid;
+            height: 20px;
+            white-space:nowrap;
+        }
+        textarea{
+            width: 402px;
+        } 
+        input[type=text] {
+            width: 400px;
+        }
+        input[type=password] {
+            width: 400px;
+        }
+        .heading{
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+<div class="wrapper">
+    <form>
+    <table>
+        <tr>
+            <td class="heading"><label for="fname">First name</label></td>
+            <td><input type="text" name="fname" id="fname"></td>
+        </tr>
+        <tr>
+            <td class="heading"><label for="lname">Last name</label></td>
+            <td><input type="text" name="lname" id="lname"></td>
+        </tr>
+        <tr>
+            <td class="heading"><label for="email">Email</label></td>
+            <td><input type="text" name="email" id="email"></td>
+        </tr>
+        <tr>
+            <td class="heading"><label for="pw">Password</label></td>
+            <td><input type="password" name="pw" id="pw"></td>
+        </tr>
+        <tr>
+            <td class="heading"><label for="pw2">Re-enter Password</label></td>
+            <td><input type="password" name="pw2" id="pw2"></td>
+        </tr>
+        <tr>
+            <td rowspan="2" class="heading"><label for="gender">Gender:</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label></td>
+        </tr>
+        <tr>
+            <td class="heading"><label for="age">Age:</label></td>
+            <td><input type="text" name="age" id="age"></td>
+        </tr>
+        <tr>
+            <td class="heading"><label for="phone">Phone Number</label></td>
+            <td><input type="text" name="age" id="age"></td>
+        </tr>
+        <tr>
+            <td class="heading"><label for="address">Address</label></td>
+            <td><textarea name="address" id="address"></textarea></td>
+        </tr>
+        <tr>
+            <td class="heading"><label for="state">State</label></td>
+            <td><input type="text" name="state" id="state"></input></td>
+        </tr>
+        <tr>
+            <td class="heading"><label for="country">Country</label></td>
+            <td>
+                <select name="country" id="country">
+                    <option value="" disabled selected hidden>Choose your country</option>
+                    <option value="India">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class="heading"><label>Languages known</label></td>
+            <td><input type="checkbox" id="English" name="English" value="English">
+                <label for="English">English</label>
+                <input type="checkbox" id="Kannada" name="Kannada" value="Kannada">
+                <label for="Kannada">Kannada</label>
+                <input type="checkbox" id="Hindi" name="Hindi" value="Hindi">
+                <label for="Hindi">Hindi</label>
+                <input type="checkbox" id="Telugu" name="Telugu" value="Telugu">
+                <label for="Telugu">Telugu</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="checkbox" id="true" name="true" value="true"> Hereby I declare all the given details are true</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: right;">Log in to <a href="https://ethnus.com/">Ethnus</a> website</td>
+        </tr>
+    </table> 
+    <br></fr>
+    <button type="submit">Register</button>
+    </form>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+            height: 100%;
+        }
+        iframe{
+            margin-top:0px;
+            padding: 0;
+            height: 100%;
+            border: none;
+        }
+        table{
+            height: 100%;
+            width: 100%;
+            border: 10px;
+            border-style: solid;
+            border-color: #014d4e;
+        }
+        td{
+            border: inset;
+            width: 33%;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td style="height: 50%;">
+                <iframe src="frame_1.html" style="width: 100%;"></iframe>
+            </td>        
+            <td rowspan="3">
+                <iframe src="frame_3.html" style="width: 100%;"></iframe>
+            </td>
+            <td rowspan="4">
+                <iframe src="frame_4.html" style="width: 100%;"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2">
+                <iframe src="frame_2.html" style="width: 100%;"></iframe>
+            </td>
+        </tr>
+    </table>                
+</body>
+
+</html>

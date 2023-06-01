@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+    <style>
+        h1{
+            font-family: arial;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .grid-container{
+            width: 27vw;
+            height: 45vh;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 200px 400px;
+            gap: 50px;
+            grid-auto-rows: 200px;
+            grid-auto-columns: 500px;
+            background-color: rgba(215,216,71,255);
+            border: dashed 2px #7f1d67;
+            padding-left: 0px;
+        }
+        .right{
+            color: #7f1d67;
+            width: 100%;
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            padding-top: 30px;  
+            list-style-type: none;
+            gap: 6px;
+            padding-left: 25px;  
+        }
+        a{
+            text-decoration: none;
+        }
+        .item{
+            display: flex;
+            flex-direction: row;
+            padding-left: 5px;
+            width: 175px;
+            height: 30px;
+            background-color: aliceblue;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .black{
+            height: 100%;
+            width: 20px;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+            <ul>
+                <div class="item"><a href="">Home Page</a><div class="black"></div></div>
+                <div class="item"><a href="#">Musings</a><div class="black"></div></div>
+                <div class="item"><a href="#">My Town</a><div class="black"></div></div>
+                <div class="item"><a href="#">Links</a><div class="black"></div></div>
+            </ul>
+        <div class="right">
+            <div class="page">
+                <p><h1>My first styled page</h1></p>
+                <p>Welcome to my styled page</p>
+                <p>It lacks images but atleast it has style. And it<br> has links, even if they don't go anywhere...</p>
+                <p>There should be more here but I don't know <br>what yet.</p>
+                <p>-----------------------------------------------------------</p>
+                <i>Made 5 April 2004<br>by myself</i>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>

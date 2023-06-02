@@ -30,10 +30,12 @@
         <li><a href="csstask9.html">Task 9</a></li>
         <li><a href="csstask10.html">Task 10</a></li>
         <li><a href="csstask11.html">Task 11</a></li>
+        <li><a href="csstask12.html">Task 12</a></li>
     </ul>
     <h1>Bootstrap tasks</h1>
     <ul>
-        <li><a href="BStask5.html">Task 5</a></li>
+        <li><a href="bstask3.html">Task 3</a></li>
+        <li><a href="bstask5.html">Task 5</a></li>
     </ul>
 </body>
 

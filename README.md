@@ -34,8 +34,25 @@
     </ul>
     <h1>Bootstrap tasks</h1>
     <ul>
+        <li><a href="bstask1.html">Task 1</a></li>
+        <li><a href="bstask2.html">Task 2</a></li>
         <li><a href="bstask3.html">Task 3</a></li>
+        <li><a href="bstask4.html">Task 4</a></li>
         <li><a href="bstask5.html">Task 5</a></li>
+        <li><a href="bstask6.html">Task 6</a></li>
+        <li><a href="bstask7.html">Task 7</a></li>
+        <li><a href="bstask8.html">Task 8</a></li>
+    </ul>
+    <h1>JavaScript tasks</h1>
+    <ul>
+        <li><a href="jstask1.html">Task 1</a></li>
+        <li><a href="jstask2.html">Task 2</a></li>
+        <li><a href="jstask3.html">Task 3</a></li>
+        <li><a href="jstask4.html">Task 4</a></li>
+        <li><a href="jstask5.html">Task 5</a></li>
+        <li><a href="jstask6.html">Task 6</a></li>
+        <li><a href="jstask7.html">Task 7</a></li>
+        <li><a href="jstask8.html">Task 8</a></li>
     </ul>
 </body>
 

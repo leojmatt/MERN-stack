@@ -1,85 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-
-    <style>
-        body{
-            height:100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .z{
-            display: flex;
-            flex-direction: row;
-        }
-        
-        .a{
-            display: flex;
-            flex-direction: row;
-            background-color: cyan;
-            justify-content: center;
-        }
-
-        .b{
-            background-color: green;
-        }
-
-        .c{
-            background-color: #188754;
-            border: #d97034 2px solid;
-            color: white;
-            align-items: center;
-            justify-content: center;
-            border-collapse: collapse;
-        }
-        
-        
-    </style>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
 </head>
-
 <body>
-
-    <nav class="navbar navbar-expand-sm a" style="    float: none;">
-        <div class="navbar-collapse collapse a" style="width:100%">
-            <ul class="nav navbar-nav navbar-center">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">lol</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-<nav class="navbar navbar-expand-sm bg-light">
-    <div class="container-fluid">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <div class="col-4"><a class="nav-link" href="#">lol</a></div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">lol</a>
-            </li>
-        </ul>
+    <div class="container">
+      <div class="nav justify-content-center" style="background-color: cyan;">
+          <div class="nav-item" aria-current="page">Ethnus Layout</div>
+      </div>
+      <nav class="nav bg-secondary">
+          <a class="nav-link text-light" aria-current="page" href="#">HOME</a>
+          <a class="nav-link text-light" href="#">CONNECT</a>
+          <a class="nav-link text-light" href="#">ABOUT</a>
+          <a class="nav-link text-light" href="#">CONTACT</a>
+          <a class="nav-link text-light ms-auto" href="#">SIGNUP</a>
+          <a class="nav-link text-light" href="#">LOGIN</a>
+      </nav>
+      <div class="content">
+        <div class="content left bg-light">Write your content here</div>
+        <div class="content right">This is</div>
+      </div>
     </div>
-</nav>
-
-<div class="z container-fluid flex-grow-1" style="padding: 0;">
-    <div class="container-fluid flex-grow-1 c col-4">
+      <style>
+        .content{
+          display: flex;
+        }
+        .left{
+          height: 50vh;
+          width: 70vw;
+          justify-content: center;
+        }
+        .right{
+          height: 50vh;
+          width: 30vw;
+          justify-content: center;
+          color: white;
+          background-color: grey;
+        }
+      </style>
     </div>
     
-    
-    <div class="container-fluid flex-grow-1 c col-8">
-    </div>
-</div>
-
-
-
 </body>
 </html>
